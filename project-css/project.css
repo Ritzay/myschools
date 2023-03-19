@@ -1,0 +1,1174 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.Main {
+    position: sticky;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    top: 0;
+    z-index: 1;
+    background-color: #bbbbd8;
+    font-size: large;
+    font-weight: bold;
+}
+
+div.img-sch {
+    display: flex;
+}
+
+.image-content {
+    width: 35%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.main-content  {    
+    width: 65%;
+    margin-top: 10px;  
+}
+
+ul.ul-content {
+    width: 100%;
+    margin-left: 300px;
+    display: flex;
+}
+
+ul.ul-content li {
+    display: inline;
+    position: relative;
+    
+}
+
+ul.ul-content .li-content a {
+    color: black;
+    padding: 5px 8px;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: none;  
+}
+
+ul.ul-content .li-content a:hover {
+    color: #736d8e;
+}
+
+.li-contentS {
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #29264a;
+    margin-left: 20px;
+}
+
+.li-contentS a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.li-contentS:hover {
+    background-color: #736d8e;
+}
+
+
+.background-image {
+    display: inline-block;
+    width: 100%;
+    padding: 30px 0px;
+    background-image: url(../image/annie-spratt-ORDz1m1-q0I-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+/* .half-side {
+    width: 10%;
+  } */
+
+.paragraph-margin {
+    margin-top: -30px;
+}
+
+div.introduction {
+    width: 100%;
+    float: right;
+    color: white; 
+    text-align: center;
+}
+
+h4.welcome-site {
+     color: #f5f7f8;
+     margin-top: -30px;
+     background-color: rgb(42, 33, 33, 0.7);
+     padding: 10px 15px;
+     text-align: center;
+}
+
+h1.pri-sch {
+    font-size: 90px; 
+    margin-top: -25px;
+    
+}
+
+/* h3.early-yrs {
+} */
+
+div.learn-more a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    padding: 15px 10px;
+    background-color: #29264a;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+div.learn-more a:hover{
+    background-color: #4e4989;
+}
+
+div.our-all>ul.child-contents a{
+    display: inline;
+    position: relative;
+    position: relative;
+}
+
+/* our teaccher, all class % contact */
+.our-all {
+    margin-top: 100px; 
+}
+
+.our-all li{
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+
+.our-all a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.teachers a{
+    background-color: #e4b475;
+}
+
+.teachers a:hover {
+    background-color: #ceb08a;
+}
+
+.all-classes a {
+    background-color: #29264a;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.all-classes a:hover {
+    background-color: #736d8e;
+}
+
+.contact a{
+    color: black;
+    background-color: white;
+}
+
+
+
+.contact a:hover {
+    background-color: #dddd;
+}
+
+                       /* ABOUT US details */
+
+div.history-img {
+    display: flex;
+    width: 100%;
+}
+
+.about-history {
+    width: 50%;
+}
+
+.about-history {
+    margin: 20px;
+}
+
+div.image-kids {
+    display: block;
+    width: 50%;
+   }
+
+img.img-kids {
+    width: 100%; 
+    margin-bottom: 25px;
+   }
+
+              /* LESONS % Teachers development page */
+
+.lessons {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.lessons-image {
+    width: 35%;
+    height: 650px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-image: url(../image/Board-template.jpg);
+    color: black;
+}
+
+.our-lessons {
+    display: flex;
+    position: relative;
+    top: 370px;
+    left: 100px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.lessons-note {
+    display: block;
+    position: relative;
+    top: 370px;
+    left: 100px;
+    font-weight: bolder;
+}
+
+.sport-music {
+    width: 60%;
+    position: relative;
+
+}
+
+.sportless {
+    padding: 20px; 
+ }
+
+ .drawingless {
+     margin-top: 20px;
+     margin-left: 25px;
+ }
+
+ div.music-less {
+    margin-left: 35px;
+    
+ }
+
+ div.history-less {
+    width: 40%;
+    display: flex;
+
+ }
+
+ div.learnless {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    font-size: 30px;
+    box-sizing: border-box;
+    font-weight: bolder; 
+}
+ 
+div.histo-less {
+    display: flex;
+    width: 40%;
+    padding: 35px;
+    background-color: #ddd;
+    margin-right: 10px;
+    text-align: center;
+}
+
+div.hiss {
+    width: 40%;
+}
+ 
+div.hissless {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+/* .sports{
+    width: 55%;
+    display: flex;
+} */
+
+/* .learn {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    background-color: #dddd;
+    margin-top: 10px;
+    font-size: 30px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    margin-right: 10px;
+} */
+
+/* .sportimage {
+    padding: 15px;
+    font-size: 60px;
+    font-weight: bolder;
+} */
+
+
+
+/* .Drawing-lessons {
+    width: 45%;
+    display: flex;
+} */
+
+/* .drawingimage {
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+} */
+
+
+/* div.famusic {
+    width: 60%;
+    display: flex;
+    
+ } */
+
+ /* .fa-fam {
+    font-size: 60px;
+    font-weight: bolder;
+ } */
+
+
+
+
+
+
+        /* Sign up for our sch...  */
+
+.sign-up {
+    width: 100%;
+    height: auto; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-image: url(../image/books-g997866138_1920.jpg);
+    padding: 5px 0px;
+}
+
+
+
+div.sign-for {
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 65px;
+    color: white;
+}
+
+h1.our-school {
+    font-size: 50px;
+    
+}
+           /* Form for our sch...  */
+div.form {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 15px;
+    
+}
+
+input[type=submit] {
+    width: 15%; 
+    padding:12px 12px;
+    background-color: #29264a;
+    text-align: center;
+    margin-top: 10px;
+    color: #a4a86d;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #736d8e;
+}
+
+ div.info {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px 25px;
+    column-count: 8;
+    column-gap: 150px;
+    width: 60%;
+
+ }
+
+
+
+
+/* biggest screen */
+    @media only screen and (min-width: 1010px) {
+        
+                    div.img-sch {
+                        display: flex;
+                    }
+
+                    .image-content {
+                        width: 30%;
+                        display: flex;
+                        margin-top: 10px;
+                    }
+
+                    .main-content  {    
+                        width: 65%;
+                        margin-top: 10px;  
+                    }
+
+                    ul.ul-content {
+                        width: 100%;
+                        margin-left: 200px;
+                    }
+
+                    ul.ul-content li {
+                        display: inline;
+                        position: relative;
+                    
+                    }
+
+                    ul.ul-content .li-content a {
+                        color: black;
+                        padding: 5px 8px;
+                        font-size: large;
+                        font-weight: bold;
+                        text-decoration: none;
+                        list-style-type: none;  
+                        
+                    }
+
+                    ul.ul-content .li-content a:hover {
+                        color: #736d8e;
+                    }
+
+                    .li-contentS {
+                        padding: 20px;
+                        font-size: large;
+                        font-weight: bold;
+                        background-color: #29264a;
+                        margin-left: 20px;
+                    }
+
+                    .li-contentS a {
+                        color: white;
+                        text-decoration: none;
+                        list-style-type: none;
+                    }
+                    .li-contentS:hover {
+                        background-color: #736d8e;
+                    }
+
+        
+        }
+
+    
+    /* tablet screen */
+
+    @media only screen and (max-width: 980px) {
+         /* main content */
+
+            div.img-sch {
+                display: flex;
+            }
+
+            div.image-content {
+                width: 10%;
+                display: flex;
+                margin-top: 10px;
+            }
+
+        div.main-content  {
+
+                width: 90%;
+                margin-top: 10px;  
+        }
+
+            ul.ul-content {
+                width: 100%;
+                display: block;
+            }
+
+            ul.ul-content li {
+                display: inline;
+                position: relative;
+                left: -150px;
+            }
+
+            ul.ul-content .li-content a {
+                color: black;
+                padding: 2px 5px;
+                font-size: large;
+                font-weight: bold;
+                text-decoration: none;
+                list-style-type: none;  
+                
+            }
+
+            ul.ul-content .li-content a:hover {
+                color: #736d8e;
+            }
+
+            div.block-contentS {
+                margin-top: 10px;
+            }
+
+            li.li-contentS {
+                padding: 5px;
+                font-size: large;
+                font-weight: bold;
+                background-color: #29264a;
+                margin-left: 150px;
+            }
+
+            .li-contentS a {
+                color: white;
+                text-decoration: none;
+                list-style-type: none;
+            }
+            .li-contentS:hover {
+                background-color: #736d8e;
+            }
+
+
+            div.our-all>ul.child-contents a{
+                display: inline;
+                position: relative;
+                position: relative;
+            }
+
+            /* our teachers, all classes, contact us  */
+
+            .our-all {
+                margin-top: 100px; 
+            }
+            
+            .our-all li{
+                display: inline;
+                text-decoration: none;
+                list-style-type: none;
+            
+            }
+            
+            .our-all a {
+                display: flex;
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                padding: 5px 10px;
+                text-align: center;
+            }
+            
+            .teachers a{
+                background-color: #e4b475;
+            }
+            
+            .all-classes a {
+                background-color: #29264a;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            
+            .contact a{
+                color: black;
+                background-color: white;
+            }
+            
+            .contact a:hover {
+                background-color: #dddd;
+            }
+
+                    /* ABOUT US details */
+
+            div.history-img {
+                display: block;
+                position: relative;
+            }
+
+            .about-history {
+                width: 90%;
+                padding: 10px;
+            }
+
+            .about-history {
+                margin: 20px;
+            }
+
+            div.image-kids {
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 5px;
+            }
+
+                              /* LESONS % Teachers development page */
+
+            .lessons {
+                width: 100%;
+                display: block;
+                position: relative;
+            }
+
+            .lessons-image {
+                width: 65%;
+                height: 650px; 
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center; 
+                background-image: url(../image/Board-template.jpg);
+                color: black;
+                padding: 5px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .our-lessons {
+                display: flex;
+                position: relative;
+                top: 370px;
+                left: 100px;
+                font-weight: bolder;
+                font-size: 50px;
+            }
+
+            .lessons-note {
+                display: block;
+                position: relative;
+                top: 370px;
+                left: 100px;
+                font-weight: bolder;
+            }
+
+                     /* drawing, music, %,... */
+
+            .sport-music {
+                width: 90%;
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .sportless {
+                padding: 20px; 
+            }
+
+            .drawingless {
+                margin-top: 20px;
+                margin-left: 25px;
+            }
+
+            div.music-less {
+                margin-left: 35px;
+                
+            }
+
+            div.history-less {
+                width: 40%;
+                display: flex;
+
+            }
+
+            div.learnless {
+                width: 100%;
+                display: flex;
+                padding: 30px;
+                font-size: 30px;
+                box-sizing: border-box;
+                font-weight: bolder; 
+            }
+            
+            div.histo-less {
+                display: flex;
+                width: 40%;
+                padding: 35px;
+                background-color: #ddd;
+                margin-right: 10px;
+                text-align: center;
+            }
+
+            div.hiss {
+                width: 40%;
+            }
+            
+            div.hissless {
+                font-size: 60px;
+                font-weight: bolder;
+                margin-right: 20px;
+            }
+
+
+                        /* Form for our sch...  */
+            div.form {
+                width: 60%;
+                margin-right: auto;
+                margin-left: auto;
+            
+            }
+
+            input[type=text] {
+                width: 50%;
+                padding: 15px;
+                
+            }
+            
+
+            input[type=submit] {
+                width: 25%; 
+                padding:15px;
+                background-color: #29264a;
+                text-align: center;
+                margin-top: 10px;
+                color: #a4a86d;
+                font-weight: bold;
+                border: none;
+                cursor: pointer;
+                text-align: center;
+            }
+
+            input[type=submit]:hover {
+                background-color: #736d8e;
+            }
+
+            div.info {
+                display: block;
+                column-count: 4 ;
+                column-gap: 20px;
+                width: 80%;
+                column-width: 100px;
+                text-align: center;
+            }
+        }
+     
+        /* smartphones */
+    @media only screen and (max-width: 700px) {
+            /* main content */
+            div.Main {
+                position: relative;
+                display: block;
+                overflow: hidden;
+                width: 100%;
+                height: auto;
+                top: 0;
+                z-index: 1;
+                background-color: #bbbbd8;
+                font-size: larger;
+                font-weight: bolder;
+            }
+
+               div.img-sch {
+                   display: flex;
+                   margin-left: auto;
+                   margin-right: auto;
+               }
+               
+               div.image-content {
+                   width: 100%;
+                   display: flex;
+                   margin-top: 10px;   
+               }
+   
+           div.main-content {
+                   width: 100%;
+
+                   
+           }
+          
+
+               ul.ul-content {
+                   width: 100%;
+                   display: block;
+                   
+               }
+
+               ul.ul-content li {
+                width: 35%;
+                   display: block;
+                   position: relative;
+                   text-align: center;
+               }
+   
+               
+               ul.ul-content .li-content a {
+                   color: black;
+                   padding: 2px 5px;
+                   font-size: larger;
+                   font-weight: bolder;
+                   text-decoration: none;
+                   list-style-type: none;  
+                   
+               }
+
+               ul.ul-content .li-content a:hover {
+                   /* color: #736d8e; */
+                   background-color: #736d8e;
+                   color: white;
+                   border: #736d8e 1px solid;
+                   border-radius: 20px;
+                   padding: 5px 15px;
+               }
+   
+               div.block-contentS {
+                    width: 30%;
+                   margin-top: 10px;
+               }
+   
+               li.li-contentS {
+                    text-align: center;
+                   padding: 5px;
+                   font-size: large;
+                   font-weight: bold;
+                   background-color: #29264a;
+                   margin-left: 150px;
+                   margin-right: auto;
+                    margin-left: auto;
+               }
+   
+               .li-contentS a {
+                   color: white;
+                   text-decoration: none;
+                   list-style-type: none;
+               }
+               .li-contentS:hover {
+                   background-color: #736d8e;
+               }
+   
+   
+               div.our-all>ul.child-contents a{
+                   display: inline;
+                   position: relative;
+                   position: relative;
+               }
+
+                /* welcome message */
+               .half-side {
+                width: 40%;
+              }
+            
+            div.introduction {
+                width: 60%;
+                float: right;
+                color: white; 
+                text-align: center;
+            }
+              
+   
+               /* our teachers, all classes, contact us  */
+               
+               .introduction {
+                    color: white;
+                }
+
+               div.welcome-center {
+                width: 100%;
+               }
+
+               h4.welcome-site {
+                color: #f5f7f8;
+                margin-left: -70px;
+                background-color: rgb(42, 33, 33, 0.7);
+                padding: 10px;
+                width: 80%;
+                text-align: center;
+                }
+
+                h1.pri-sch {
+                    width: 80%;
+                    font-size: 65px; 
+                    margin-top: -25px;
+                    margin-left: -80px;
+                    text-align: center;
+                }
+                
+                h3.early-yrs {
+                    margin-top: -30px;
+                    width: 80%; 
+                    margin-left: -80px;
+                    text-align: center;
+                    margin-bottom: 25px;
+                }
+
+               div.our-all {
+                width: 100%;   
+                margin-top: 100px; 
+                   
+               }
+               
+               .our-all li{
+                   display: flex;
+                   text-decoration: none;
+                   list-style-type: none;
+               }
+               
+               .our-all a {
+                   display: flex;
+                   width: 100%;
+                   text-decoration: none;
+                   color: white;
+                   font-weight: bold;
+                   text-align: center;
+                   right: 50px;
+               }
+               
+               div.child-contents{
+                    display: flex;
+               }
+
+               .teachers a{
+                   background-color: #e4b475;
+                   border-radius: 20px;
+                    width: 80%; 
+                    margin-left: -80px;
+                    text-align: center;
+               }
+               
+               .all-classes a {
+                   background-color: #29264a;
+                   border-radius: 20px;
+                   margin: 5px;
+                   width: 80%; 
+                    margin-left: -80px;
+                    text-align: center;
+               }
+
+               
+               .contact a{
+                   color: black;
+                   background-color: white;
+                   border-radius: 20px;
+                   width: 80%; 
+                    margin-left: -80px;
+                    text-align: center;
+               }
+               
+               .contact a:hover {
+                   background-color: #dddd;
+               }
+   
+                       /* ABOUT US details */
+   
+               div.history-img {
+                   display: block;
+                   position: relative;
+               }
+   
+               .about-history {
+                   width: 90%;
+                   padding: 10px;
+               }
+   
+               .about-history {
+                   margin: 20px;
+               }
+   
+               div.image-kids {
+                   width: 90%;
+                   margin-left: auto;
+                   margin-right: auto;
+                   padding: 5px;
+               }
+   
+                             /* LESONS % Teachers development page */
+   
+               div.lessons {
+                   width: 100%;
+                   display: block;
+                   position: relative;
+               }
+   
+               div.lessons-image {
+                   width: 85%;
+                   height: 650px; 
+                   background-size: cover;
+                   background-repeat: no-repeat;
+                   background-position: center; 
+                   background-image: url(../image/Board-template.jpg);
+                   color: black;
+                   padding: 5px;
+                   margin-left: auto;
+                   margin-right: auto;
+               }
+
+               h1.our-lessons {
+                   display: flex;
+                   position: relative;
+                   top: 370px;
+                   left: 100px;
+                   font-weight: bolder;
+                   font-size: 50px;
+               }
+               
+               h2.lessons-note {
+                   display: block;
+                   position: relative;
+                   top: 370px;
+                   left: 100px;
+                   font-weight: bolder;
+               }
+   
+                        /* drawing, music, %,... */
+   
+               div.sport-music {
+                   width: 90%;
+                   position: relative;
+                   margin-left: auto;
+                   margin-right: auto;
+                   margin-top: 50px;
+               }
+   
+               /* .sportless {
+                   padding: 5px; 
+               }
+   
+               .drawingless {
+                   margin-top: 20px;
+                   margin-left: 25px;
+               }
+   
+               div.music-less {
+                   margin-left: 5px;
+                   
+               }
+   
+               div.history-less {
+                   width: 20%;
+                   display: flex;
+   
+               } */
+   
+               div.learnless {
+                   width: 85%;
+                   display: flex;
+                   padding: 10px;
+                   font-size: 25px;
+                   font-weight: bold; 
+               }
+               
+               div.histo-less {
+                   display: flex;
+                   width: 40%;
+                   padding: 35px;
+                   background-color: #ddd;
+                   margin-right: 10px;
+                   text-align: center;
+               }
+   
+               div.hiss {
+                   width: 40%;
+               }
+               
+               div.hissless {
+                   font-size: 37px;
+                   font-weight: bolder;
+                   
+               }
+   
+   
+                           /* Form for our sch...  */
+
+                div.sign-for {
+                    width: 70%;
+                    text-align: start;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding: 65px;
+                    color: white;
+                 }   
+                 h2.parent-color {
+                    background-color: rgb(42, 33, 33, 0.7);
+                    padding: 5px;
+                    text-indent: 30px;
+                 }
+
+               div.form {
+                   width: 60%;
+                   /* margin-right: auto;
+                   margin-left: auto; */
+               
+               }
+   
+               input[type=text] {
+                   width: 50%;
+                   padding: 15px;
+                   
+               }
+               
+   
+               input[type=submit] {
+                   width: 35%; 
+                   padding:15px;
+                   background-color: #29264a;
+                   text-align: center;
+                   margin-top: 10px;
+                   color: #a4a86d;
+                   font-weight: bold;
+                   border: none;
+                   cursor: pointer;
+               }
+   
+               input[type=submit]:hover {
+                   background-color: #736d8e;
+               }
+   
+               div.info {
+                   display: block;
+                   column-count: 2;
+                   column-gap: 20px;
+                   width: 80%;
+                   column-width: 100px;
+                   text-align: center;
+               }
+           }
+           
+
+           /* CONTACT FORM */
+           div.form {
+            background-color: #dddd;
+            width: 90%;
+            height: 500px;
+            padding: 40px;
+            font-weight: bolder;
+           }
+
+           input[type=text] , select, input[type=search], input[type=submit], textarea {
+                display: block;
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto; 
+                border: none;
+                border-radius: 10px;
+                padding: 16px 30px;
+                box-sizing: border-box;
+           }
+
+           label {
+            /* margin-left: 170px; */
+            padding-left: 200px;
+
+           }
